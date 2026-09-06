@@ -3,24 +3,20 @@ import { api } from "../../api/client";
 import type { MatchResponse } from "../../types";
 import { MatchCard, SkeletonCard } from "./components/MatchCard";
 
-const DEFAULT_PROFILE =
-  "3年 Python后端 + RAG问答项目 + LangChain + Docker部署";
+const DEFAULT_PROFILE = "3年 Python后端 + RAG问答项目 + LangChain + Docker部署";
 
 const SHORTCUTS = [
   {
     label: "AI Agent方向",
-    value:
-      "3年 Python后端 + RAG问答项目 + LangChain + Docker部署 + Prompt评测",
+    value: "3年 Python后端 + RAG问答项目 + LangChain + Docker部署 + Prompt评测",
   },
   {
     label: "前端转AI",
-    value:
-      "5年 前端/React/TS + 近1年 AI应用开发 + Prompt工程 + 向量检索",
+    value: "5年 前端/React/TS + 近1年 AI应用开发 + Prompt工程 + 向量检索",
   },
   {
     label: "Python后端",
-    value:
-      "3年 Python + FastAPI/PostgreSQL + 想转大模型应用开发",
+    value: "3年 Python + FastAPI/PostgreSQL + 想转大模型应用开发",
   },
 ] as const;
 
@@ -367,8 +363,8 @@ export default function MatchPage() {
                 尚未诊断
               </div>
               <div className="mt-1 text-[12px] leading-relaxed text-muted max-w-[36ch] mx-auto">
-                在左侧输入画像并点击“开始诊断”，将基于 20 条示例岗位做向量粗排
-                + 规则精排，返回 Top3 与缺口分析。
+                在左侧输入画像并点击“开始诊断”，将基于 20 条示例岗位做向量粗排 +
+                规则精排，返回 Top3 与缺口分析。
               </div>
               <div className="mt-4 inline-flex items-center gap-1.5 text-[11px] px-3 py-1.5 rounded-full bg-paper-warm border border-line text-muted">
                 示例画像已填好，直接点击“开始诊断”即可预览

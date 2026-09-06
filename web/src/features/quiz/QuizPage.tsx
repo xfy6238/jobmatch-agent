@@ -13,8 +13,7 @@ type JobCard = {
   url?: string;
 };
 
-const DEFAULT_PROFILE =
-  "3年 Python后端 + RAG问答项目 + LangChain + Docker部署";
+const DEFAULT_PROFILE = "3年 Python后端 + RAG问答项目 + LangChain + Docker部署";
 
 const FALLBACK_JOBS: Pick<MatchItem, "title" | "company" | "url" | "salary">[] =
   [

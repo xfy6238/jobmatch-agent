@@ -655,7 +655,12 @@ if __name__ == "__main__":
     try:
         if _GRAPH_OK and s1_graph is not None:
             s1_out = s1_graph.invoke(
-                {"profile": "3年 Python后端", "filters": {}, "job_url": "", "_trace": []}
+                {
+                    "profile": "3年 Python后端",
+                    "filters": {},
+                    "job_url": "",
+                    "_trace": [],
+                }
             )
             print("[s1] trace =", s1_out.get("_trace"))
             print("[s1] mode =", s1_out.get("mode"))

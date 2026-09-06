@@ -275,8 +275,8 @@ export default function JobsPage() {
               岗位库 20条示例岗位
             </h1>
             <p className="mt-2 text-[13px] leading-relaxed text-[#78716c]">
-              虚构数据开箱即用 ·
-              支持关键词/来源/区域/薪资/排序/模糊搜索 · 前端分页每页20条
+              虚构数据开箱即用 · 支持关键词/来源/区域/薪资/排序/模糊搜索 ·
+              前端分页每页20条
             </p>
           </div>
 

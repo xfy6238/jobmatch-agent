@@ -285,8 +285,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
             <div className="mx-4 py-3 border-t border-[var(--line)]">
               <p className="text-xs leading-relaxed text-stone">
-                开箱 20 条虚构示例岗位（example.com 占位），换成你自己的 JD
-                JSON 即可复用全部链路。默认只看薪资中位 ≥17K 的条目。
+                开箱 20 条虚构示例岗位（example.com 占位），换成你自己的 JD JSON
+                即可复用全部链路。默认只看薪资中位 ≥17K 的条目。
               </p>
             </div>
           </div>
