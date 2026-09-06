@@ -1,0 +1,26 @@
+.DS_Store
+# Python
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.venv/
+venv/
+# 本地运行时（自动生成，不进仓库）
+backend/chroma_db/
+backend/sessions.db
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+*.log
+# 真实/私有 JD 数据（只留样例）
+data/*.json
+!data/sample_jobs.json
+# 前端构建与依赖
+web/node_modules/
+web/dist/
+web/dist-ssr/
+*.local
+# 凭证
+.env
+.env.*
+!.env.example
